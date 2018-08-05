@@ -10,10 +10,6 @@ public interface ProdutoRegra {
 
 	void delete(Produto produto);
 
-	// List<Cidade> listar();
-
-	// List<Cidade> listarPorNome(String nome);
-
 	Produto buscarPorCodigo(Long codigo);
 
 	List<Produto> dadosGrid();
